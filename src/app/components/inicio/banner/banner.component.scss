@@ -1,0 +1,13 @@
+.bannerContainer{
+  // background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQebHn9VmTvOqmBQ25k6ssI9dNDmHllZV0gOA&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 50px;
+  position: relative;
+
+  .titleH2{
+    color: azure;
+    font-size: 4.5rem;
+    text-shadow: 3px 3px 5px #000;
+  }
+}

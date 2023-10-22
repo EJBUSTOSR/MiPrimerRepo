@@ -1,0 +1,27 @@
+.workContainer{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  img.imgWork{
+    width: 200px;
+    height: 200px;
+  }
+
+  .textWork{
+    margin-left: 3rem;
+    h5{
+      font-size: 2.5rem;
+    }
+    .workDescription{
+      font-size: 1.75rem;
+    }
+  }
+
+  // .editionContainer{
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   margin: 20px;
+  // }
+
+
+}

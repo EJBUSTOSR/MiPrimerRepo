@@ -1,0 +1,30 @@
+.navbarContainer{
+  padding: 2rem 3rem;
+
+  .navBarRedLogin{
+    .social{
+      a:hover{
+        transform: scale(1.3);
+      }
+
+      a.socLinkedin{
+        color: #007BB6;
+      }
+      a.socWhatsapp{
+        color: #075e54;
+      }
+      a.socFacebook{
+        color: #3B5998;
+      }
+      a.socYoutube{
+        color: #c4302b;
+      }
+      a.socInstagram{
+        color: #3F729B;
+      }
+      a.socGitHub{
+        color: #444444;
+      }
+    }
+  }
+}
