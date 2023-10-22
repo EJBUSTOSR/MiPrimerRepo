@@ -9,6 +9,9 @@ import { HeaderComponent } from './components/inicio/header/header.component';
 import { AboutComponent } from './components/inicio/about/about.component';
 import { WorksDoneComponent } from './components/inicio/works-done/works-done.component';
 import { WorksComponent } from './components/inicio/works/works.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService } from '../app/services/in-memory-data.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,11 @@ import { WorksComponent } from './components/inicio/works/works.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, { dataEncapsulation: false}
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
